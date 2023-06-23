@@ -1,6 +1,12 @@
+<?php
+$companyName = "Franklin's Fine Dining";
+include('includes/arrays.php');
+
+?>
+
 <html>
 <head>
-    <title></title>
+    <title> <?php echo TITLE; ?> </title>
     <link href="/assets/styles.css" rel="stylesheet" >
 
 </head>

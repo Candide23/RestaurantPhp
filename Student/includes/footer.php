@@ -24,11 +24,14 @@
         <em>Sunday - Saturday</em><br>
         close<br><br>
 
+        <?php include ('includes/StoreHours2.class.php'); ?>
+
+
     </div>
 
 </div>
 
-<small>&copy;20023 Candide Mbk</small>
+<small>&copy; <?php echo date('Y'); ?> <?php echo $companyName; ?> </small>
 
 </div>
 
